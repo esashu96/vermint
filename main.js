@@ -132,23 +132,23 @@ $(document).ready(function () {
       kata2 = "Semoga mimpi indah<i class='fa fa-heart'></i>";
     } else {
       if (hSalam < 11) {
-        ucapanSalam = ""
-        kata1 = "Jangan lupa sarapan";
+        ucapanSalam = "Pagi sayangg"
+        kata1 = "Jangan lupa sarapan ya sebelum berangkat";
         kata2 = "Semoga hari hari mu menyenangkan <i class='fa fa-heart'></i>";
       } else {
         if (hSalam < 16) {
-          ucapanSalam = "Selamat Siang kamu"
-          kata1 = "Jangan lupa makan siang";
-          kata2 = "Jangan lupa shalat dzuhur juga<i class='fa fa-heart'></i>";
+          ucapanSalam = "siang sayangg"
+          kata1 = "Jangan lupa makan siangnya ya";
+          kata2 = "Jangan kecapean ya sayangg jaga kondisinya<i class='fa fa-heart'></i>";
         } else {
           if (hSalam < 20) {
-            ucapanSalam = "Selamat Sore kamu"
-            kata1 = "Jangan lupa mandi hahaha";
-            kata2 = "Jangan lupa shalat ashar juga yaa<i class='fa fa-heart'></i>";
+            ucapanSalam = "Sore bebb"
+            kata1 = "Jangan lupa mandi haha di clk biasa jam 5 sih";
+            kata2 = "Cepet mandi ya biar makin gemeshhhh<i class='fa fa-heart'></i>";
           } else {
-              ucapanSalam = "Selamat Malam Kamu"
-              kata1 = "Jangan tidur malam";
-              kata2 = "Semoga mimpi indah<i class='fa fa-heart'></i>";
+              ucapanSalam = "Malem Sayangg"
+              kata1 = "mimpi indah yaa tidurnya yang nyenyak";
+              kata2 = "Esa sayang banget ke adis<i class='fa fa-heart'></i>";
           }
         }
       }
