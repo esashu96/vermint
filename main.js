@@ -129,17 +129,17 @@ $(document).ready(function () {
     if (hSalam < 4) {
       ucapanSalam = "Hallo Sayangg" <i class='fa fa-heart'></i>";
       kata1 = "Semangat ya kuliahnya disana";
-      kata2 = "Jangan nakal inget sama esa ya jangan cari yang lain :D
+      kata2 = "Jangan nakal inget sama esa ya jangan cari yang lain :D"
     } else {
       if (hSalam < 11) {
         ucapanSalam = "Pagi bebb" <i class='fa fa-heart'></i>";
         kata1 = "Jangan lupa sarapan sebelum berangkat";
-        kata2 = "Hatihati dijalannya ya sayangg
+        kata2 = "Hatihati dijalannya ya sayangg"
       } else {
         if (hSalam < 16) {
           ucapanSalam = "Siang bebb" <i class='fa fa-heart'></i>";
           kata1 = "Jangan lupa makan siang jangan terlalu cape ya banyakin istirahat";
-          kata2 = "esa sayang banget ke adis
+          kata2 = "esa sayang banget ke adis"
         } else {
           if (hSalam < 20) {
             ucapanSalam = "Sore Sayangg" <i class='fa fa-heart'></i>";
