@@ -109,7 +109,7 @@ $(document).ready(function () {
     },
     "retina_detect": true
   }
-
+ 
   particlesJS("particles-js", particlesJSON);
   function checkTime(i) {
     if (i < 10) {
@@ -117,7 +117,7 @@ $(document).ready(function () {
     }
     return i;
   }
-
+ 
   function startTimeSalam() {
     var ucapanSalam = "";
     var todaySalam = new Date();
@@ -127,40 +127,41 @@ $(document).ready(function () {
     mSalam = checkTime(mSalam);
     sSalam = checkTime(sSalam);
     if (hSalam < 4) {
-      ucapanSalam = "Selamat Malam Kamu"
-      kata1 = "Jangan tidur malam";
-      kata2 = "Semoga mimpi indah<i class='fa fa-heart'></i>";
+      ucapanSalam = "Hallo Sayangg" <i class='fa fa-heart'></i>";
+      kata1 = "Semangat ya kuliahnya disana";
+      kata2 = "Jangan nakal inget sama esa ya jangan cari yang lain :D";
     } else {
       if (hSalam < 11) {
-        ucapanSalam = "Selamat Pagi kamu"
-        kata1 = "Jangan lupa sarapan";
-        kata2 = "Semoga hari hari mu menyenangkan <i class='fa fa-heart'></i>";
+        ucapanSalam = "Pagi bebb" <i class='fa fa-heart'></i>";
+        kata1 = "Jangan lupa sarapan sebelum berangkat";
+        kata2 = "Hatihati dijalannya ya sayangg";
       } else {
         if (hSalam < 16) {
-          ucapanSalam = "Selamat Siang kamu"
-          kata1 = "Jangan lupa makan siang";
-          kata2 = "Jangan lupa shalat dzuhur juga<i class='fa fa-heart'></i>";
+          ucapanSalam = "Siang bebb" <i class='fa fa-heart'></i>";
+          kata1 = "Jangan lupa makan siang jangan terlalu cape ya banyakin istirahat";
+          kata2 = "esa sayang banget ke adis";
         } else {
           if (hSalam < 20) {
-            ucapanSalam = "Selamat Sore kamu"
-            kata1 = "Jangan lupa mandi hahaha";
-            kata2 = "Jangan lupa shalat ashar juga yaa<i class='fa fa-heart'></i>";
+            ucapanSalam = "Sore Sayangg" <i class='fa fa-heart'></i>";
+            kata1 = "Jangan lupa mandi haha biasa di clk mandi jam 5 ya";
+            kata2 = "Buruan mandi ya biar makin gemseshh, lv u bebb <i class='fa fa-heart'></i>";
           } else {
-              ucapanSalam = "Selamat Malam Kamu"
-              kata1 = "Jangan tidur malam";
-              kata2 = "Semoga mimpi indah<i class='fa fa-heart'></i>";
+              ucapanSalam = "Malem bebb"
+              kata1 = "mimpi indah ya sayang tidur yang nyenyak";
+              kata2 = "esa sayang banget ke adis,jangan tinggalin esa yaa" <i class='fa fa-heart'></i>";
+              kata3 = "cepet pulang ya sayang kesini";
           }
         }
       }
     }
     // $(".salam").html(ucapanSalam);
     var typed = new Typed('h3', {
-      strings: [ucapanSalam, kata1, kata2],
+      strings: [ucapanSalam, kata1, kata2, kata3],
       smartBackspace: true,
       showCursor: 0,
       typeSpeed: 50,
     });
   }
-
+ 
   window.onload = startTimeSalam();
 })
